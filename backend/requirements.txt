@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+pydantic-settings
+python-dotenv
+pytest
+httpx
+watchdog
+requests
+scikit-learn
+numpy
+joblib
+pandas
+chromadb
+sentence-transformers
+groq

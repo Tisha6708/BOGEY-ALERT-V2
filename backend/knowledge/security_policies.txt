@@ -1,0 +1,36 @@
+BOGEY-ALERT SECURITY POLICIES
+
+POLICY 1 — DEVELOPER ROLE
+Developers are normally permitted to create, modify, and move development files.
+Developers are not normally permitted to delete restricted company data.
+Developers are not permitted to access sensitive company data unless explicit authorization has been granted.
+
+POLICY 2 — SENSITIVE DATA
+Sensitive company files must only be accessed for legitimate business purposes.
+Bulk creation, modification, deletion, or movement of sensitive files should be treated as potentially suspicious.
+Any approved sensitive-data operation must have valid authorization from an appropriate security administrator or manager.
+
+POLICY 3 — AFTER-HOURS ACTIVITY
+Normal working hours for employees are 09:00 to 18:00 local organizational time.
+Activity outside normal working hours should be investigated when it represents a significant deviation from the employee's normal behavior.
+
+POLICY 4 — WEEKEND ACTIVITY
+Weekend activity is not normally permitted for standard developer roles.
+Approved weekend work must have explicit authorization.
+
+POLICY 5 — DATA VOLUME
+Large unexpected data volumes should be investigated when they significantly exceed an employee's normal behavioral baseline.
+High data volume combined with sensitive-file activity or unusual file operations represents increased security risk.
+
+POLICY 6 — MASS FILE OPERATIONS
+Mass deletion, modification, creation, or movement of files should be investigated when it significantly deviates from normal employee behavior.
+The security system must distinguish between authorized operational activity and unexplained anomalous activity.
+
+POLICY 7 — AUTHORIZATION
+An approved authorization does not disable monitoring or machine-learning detection.
+Authorized activity should remain visible to analysts but may reduce the associated risk when the authorization explicitly covers the observed activity.
+
+POLICY 8 — HUMAN REVIEW
+BOGEY-ALERT provides security analysts with evidence, behavioral analysis, policy context, and AI-assisted explanations.
+The AI system must not make the final security decision.
+Final decisions remain with the authorized security analyst.
